@@ -12,27 +12,27 @@ class Hiztesti < Formula
   desc "Internet speed and quality measurement from the command line"
   homepage "https://hiztesti.com"
   license :cannot_represent # tescilli; kaynak yayımlanmıyor
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
       url "https://github.com/netmetrik/hiztesti-cli/releases/download/v#{version}/hiztesti-darwin-arm64.tgz"
-      sha256 "31eebceb1aa936a408448d07649835090a5e3d4bfab426a6ca2a38b7d7a530da"
+      sha256 "5afdeb6446c6e95119b17456925c103a447718b603bbccb8cc65df10ee067623"
     end
     on_intel do
       url "https://github.com/netmetrik/hiztesti-cli/releases/download/v#{version}/hiztesti-darwin-x86_64.tgz"
-      sha256 "a163e30dc8a863f4a0d171dd7bdc67108a17d7022717560742d40559c50f699c"
+      sha256 "6fba160a90693e2dc8ce7d6ab18864dc58d95892914339c02fbac438543d08f3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/netmetrik/hiztesti-cli/releases/download/v#{version}/hiztesti-linux-aarch64.tgz"
-      sha256 "660a19fe9ea914bc8eef189702586651a85bbc087cdc69c11b72608ab2283f74"
+      sha256 "2be7094419f6ca3dc1f2b9b05d2a07c059d9668206a4b4845dbc1cb96e32b30c"
     end
     on_intel do
       url "https://github.com/netmetrik/hiztesti-cli/releases/download/v#{version}/hiztesti-linux-x86_64.tgz"
-      sha256 "0f33ff2ccebbbfdf1f5a6f197525c9010b4986c28cd371a9485425c9325b94ac"
+      sha256 "8831c9526c576e15c4e6435afe2bdd55f2168f0d8caa1c3b35814892089da21a"
     end
   end
 
